@@ -1,0 +1,405 @@
+// Prefix
+//
+// Using as Prefix for all classes
+$prefix: ea-;
+
+//
+// red
+//
+$red: (
+        red : (#F44336, #FFFFFF),
+        red-50 : (#FFEBEE, #000000),
+        red-100 : (#FFCDD2, #000000),
+        red-200 : (#EF9A9A, #000000),
+        red-300 : (#E57373, #000000),
+        red-400 : (#EF5350, #FFFFFF),
+        red-500 : (#F44336, #FFFFFF),
+        red-600 : (#E53935, #FFFFFF),
+        red-700 : (#D32F2F, #FFFFFF),
+        red-800 : (#C62828, #FFFFFF),
+        red-900 : (#B71C1C, #FFFFFF),
+        red-A100 : (#FF8A80, #000000),
+        red-A200 : (#FF5252, #FFFFFF),
+        red-A400 : (#FF1744, #FFFFFF),
+        red-A700 : (#D50000, #FFFFFF)
+);
+
+//
+// pink
+//
+$pink: (
+        pink : (#E91E63, #FFFFFF),
+        pink-50 : (#FCE4EC, #000000),
+        pink-100 : (#F8BBD0, #000000),
+        pink-200 : (#F48FB1, #000000),
+        pink-300 : (#F06292, #000000),
+        pink-400 : (#EC407A, #FFFFFF),
+        pink-500 : (#E91E63, #FFFFFF),
+        pink-600 : (#D81B60, #FFFFFF),
+        pink-700 : (#C2185B, #FFFFFF),
+        pink-800 : (#AD1457, #FFFFFF),
+        pink-900 : (#880E4F, #FFFFFF),
+        pink-A100 : (#FF80AB, #000000),
+        pink-A200 : (#FF4081, #FFFFFF),
+        pink-A400 : (#F50057, #FFFFFF),
+        pink-A700 : (#C51162, #FFFFFF)
+);
+
+//
+// purple
+//
+$purple: (
+        purple : (#9C27B0, #FFFFFF),
+        purple-50 : (#F3E5F5, #000000),
+        purple-100 : (#E1BEE7, #000000),
+        purple-200 : (#CE93D8, #000000),
+        purple-300 : (#BA68C8, #FFFFFF),
+        purple-400 : (#AB47BC, #FFFFFF),
+        purple-500 : (#9C27B0, #FFFFFF),
+        purple-600 : (#8E24AA, #FFFFFF),
+        purple-700 : (#7B1FA2, #FFFFFF),
+        purple-800 : (#6A1B9A, #FFFFFF),
+        purple-900 : (#4A148C, #FFFFFF),
+        purple-A100 : (#EA80FC, #000000),
+        purple-A200 : (#E040FB, #FFFFFF),
+        purple-A400 : (#D500F9, #FFFFFF),
+        purple-A700 : (#AA00FF, #FFFFFF)
+);
+
+//
+// deep-purple
+//
+$deep-purple: (
+        deep-purple : (#673AB7, #FFFFFF),
+        deep-purple-50 : (#EDE7F6, #000000),
+        deep-purple-100 : (#D1C4E9, #000000),
+        deep-purple-200 : (#B39DDB, #000000),
+        deep-purple-300 : (#9575CD, #FFFFFF),
+        deep-purple-400 : (#7E57C2, #FFFFFF),
+        deep-purple-500 : (#673AB7, #FFFFFF),
+        deep-purple-600 : (#5E35B1, #FFFFFF),
+        deep-purple-700 : (#512DA8, #FFFFFF),
+        deep-purple-800 : (#4527A0, #FFFFFF),
+        deep-purple-900 : (#311B92, #FFFFFF),
+        deep-purple-A100 : (#B388FF, #000000),
+        deep-purple-A200 : (#7C4DFF, #FFFFFF),
+        deep-purple-A400 : (#651FFF, #FFFFFF),
+        deep-purple-A700 : (#6200EA, #FFFFFF)
+);
+
+//
+// indigo
+//
+$indigo: (
+        indigo : (#3F51B5, #FFFFFF),
+        indigo-50 : (#E8EAF6, #000000),
+        indigo-100 : (#C5CAE9, #000000),
+        indigo-200 : (#9FA8DA, #000000),
+        indigo-300 : (#7986CB, #FFFFFF),
+        indigo-400 : (#5C6BC0, #FFFFFF),
+        indigo-500 : (#3F51B5, #FFFFFF),
+        indigo-600 : (#3949AB, #FFFFFF),
+        indigo-700 : (#303F9F, #FFFFFF),
+        indigo-800 : (#283593, #FFFFFF),
+        indigo-900 : (#1A237E, #FFFFFF),
+        indigo-A100 : (#8C9EFF, #000000),
+        indigo-A200 : (#536DFE, #FFFFFF),
+        indigo-A400 : (#3D5AFE, #FFFFFF),
+        indigo-A700 : (#304FFE, #FFFFFF)
+);
+
+//
+// blue
+//
+$blue: (
+        blue : (#2196F3, #000000),
+        blue-50 : (#E3F2FD, #000000),
+        blue-100 : (#BBDEFB, #000000),
+        blue-200 : (#90CAF9, #000000),
+        blue-300 : (#64B5F6, #000000),
+        blue-400 : (#42A5F5, #000000),
+        blue-500 : (#2196F3, #000000),
+        blue-600 : (#1E88E5, #FFFFFF),
+        blue-700 : (#1976D2, #FFFFFF),
+        blue-800 : (#1565C0, #FFFFFF),
+        blue-900 : (#0D47A1, #FFFFFF),
+        blue-A100 : (#82B1FF, #000000),
+        blue-A200 : (#448AFF, #FFFFFF),
+        blue-A400 : (#2979FF, #FFFFFF),
+        blue-A700 : (#2962FF, #FFFFFF)
+);
+
+//
+// light-blue
+//
+$light-blue: (
+        light-blue : (#03A9F4, #000000),
+        light-blue-50 : (#E1F5FE, #000000),
+        light-blue-100 : (#B3E5FC, #000000),
+        light-blue-200 : (#81D4FA, #000000),
+        light-blue-300 : (#4FC3F7, #000000),
+        light-blue-400 : (#29B6F6, #000000),
+        light-blue-500 : (#03A9F4, #000000),
+        light-blue-600 : (#039BE5, #000000),
+        light-blue-700 : (#0288D1, #FFFFFF),
+        light-blue-800 : (#0277BD, #FFFFFF),
+        light-blue-900 : (#01579B, #FFFFFF),
+        light-blue-A100 : (#80D8FF, #000000),
+        light-blue-A200 : (#40C4FF, #000000),
+        light-blue-A400 : (#00B0FF, #000000),
+        light-blue-A700 : (#0091EA, #FFFFFF)
+);
+
+//
+// cyan
+//
+$cyan: (
+        cyan : (#00BCD4, #000000),
+        cyan-50 : (#E0F7FA, #000000),
+        cyan-100 : (#B2EBF2, #000000),
+        cyan-200 : (#80DEEA, #000000),
+        cyan-300 : (#4DD0E1, #000000),
+        cyan-400 : (#26C6DA, #000000),
+        cyan-500 : (#00BCD4, #000000),
+        cyan-600 : (#00ACC1, #000000),
+        cyan-700 : (#0097A7, #FFFFFF),
+        cyan-800 : (#00838F, #FFFFFF),
+        cyan-900 : (#006064, #FFFFFF),
+        cyan-A100 : (#84FFFF, #000000),
+        cyan-A200 : (#18FFFF, #000000),
+        cyan-A400 : (#00E5FF, #000000),
+        cyan-A700 : (#00B8D4, #000000)
+);
+
+//
+// teal
+//
+$teal: (
+        teal : (#009688, #FFFFFF),
+        teal-50 : (#E0F2F1, #000000),
+        teal-100 : (#B2DFDB, #000000),
+        teal-200 : (#80CBC4, #000000),
+        teal-300 : (#4DB6AC, #000000),
+        teal-400 : (#26A69A, #000000),
+        teal-500 : (#009688, #FFFFFF),
+        teal-600 : (#00897B, #FFFFFF),
+        teal-700 : (#00796B, #FFFFFF),
+        teal-800 : (#00695C, #FFFFFF),
+        teal-900 : (#004D40, #FFFFFF),
+        teal-A100 : (#A7FFEB, #000000),
+        teal-A200 : (#64FFDA, #000000),
+        teal-A400 : (#1DE9B6, #000000),
+        teal-A700 : (#00BFA5, #000000)
+);
+
+//
+// green
+//
+$green: (
+        green : (#4CAF50, #000000),
+        green-50 : (#E8F5E9, #000000),
+        green-100 : (#C8E6C9, #000000),
+        green-200 : (#A5D6A7, #000000),
+        green-300 : (#81C784, #000000),
+        green-400 : (#66BB6A, #000000),
+        green-500 : (#4CAF50, #000000),
+        green-600 : (#43A047, #FFFFFF),
+        green-700 : (#388E3C, #FFFFFF),
+        green-800 : (#2E7D32, #FFFFFF),
+        green-900 : (#1B5E20, #FFFFFF),
+        green-A100 : (#B9F6CA, #000000),
+        green-A200 : (#69F0AE, #000000),
+        green-A400 : (#00E676, #000000),
+        green-A700 : (#00C853, #000000)
+);
+
+//
+// light-green
+//
+$light-green: (
+        light-green : (#8BC34A, #000000),
+        light-green-50 : (#F1F8E9, #000000),
+        light-green-100 : (#DCEDC8, #000000),
+        light-green-200 : (#C5E1A5, #000000),
+        light-green-300 : (#AED581, #000000),
+        light-green-400 : (#9CCC65, #000000),
+        light-green-500 : (#8BC34A, #000000),
+        light-green-600 : (#7CB342, #000000),
+        light-green-700 : (#689F38, #000000),
+        light-green-800 : (#558B2F, #FFFFFF),
+        light-green-900 : (#33691E, #FFFFFF),
+        light-green-A100 : (#CCFF90, #000000),
+        light-green-A200 : (#B2FF59, #000000),
+        light-green-A400 : (#76FF03, #000000),
+        light-green-A700 : (#64DD17, #000000)
+);
+
+//
+// lime
+//
+$lime: (
+        lime : (#CDDC39, #000000),
+        lime-50 : (#F9FBE7, #000000),
+        lime-100 : (#F0F4C3, #000000),
+        lime-200 : (#E6EE9C, #000000),
+        lime-300 : (#DCE775, #000000),
+        lime-400 : (#D4E157, #000000),
+        lime-500 : (#CDDC39, #000000),
+        lime-600 : (#C0CA33, #000000),
+        lime-700 : (#AFB42B, #000000),
+        lime-800 : (#9E9D24, #000000),
+        lime-900 : (#827717, #FFFFFF),
+        lime-A100 : (#F4FF81, #000000),
+        lime-A200 : (#EEFF41, #000000),
+        lime-A400 : (#C6FF00, #000000),
+        lime-A700 : (#AEEA00, #000000)
+);
+
+//
+// yellow
+//
+$yellow: (
+        yellow : (#FFEB3B, #000000),
+        yellow-50 : (#FFFDE7, #000000),
+        yellow-100 : (#FFF9C4, #000000),
+        yellow-200 : (#FFF59D, #000000),
+        yellow-300 : (#FFF176, #000000),
+        yellow-400 : (#FFEE58, #000000),
+        yellow-500 : (#FFEB3B, #000000),
+        yellow-600 : (#FDD835, #000000),
+        yellow-700 : (#FBC02D, #000000),
+        yellow-800 : (#F9A825, #000000),
+        yellow-900 : (#F57F17, #000000),
+        yellow-A100 : (#FFFF8D, #000000),
+        yellow-A200 : (#FFFF00, #000000),
+        yellow-A400 : (#FFEA00, #000000),
+        yellow-A700 : (#FFD600, #000000)
+);
+
+//
+// amber
+//
+$amber: (
+        amber : (#FFC107, #000000),
+        amber-50 : (#FFF8E1, #000000),
+        amber-100 : (#FFECB3, #000000),
+        amber-200 : (#FFE082, #000000),
+        amber-300 : (#FFD54F, #000000),
+        amber-400 : (#FFCA28, #000000),
+        amber-500 : (#FFC107, #000000),
+        amber-600 : (#FFB300, #000000),
+        amber-700 : (#FFA000, #000000),
+        amber-800 : (#FF8F00, #000000),
+        amber-900 : (#FF6F00, #000000),
+        amber-A100 : (#FFE57F, #000000),
+        amber-A200 : (#FFD740, #000000),
+        amber-A400 : (#FFC400, #000000),
+        amber-A700 : (#FFAB00, #000000)
+);
+
+//
+// orange
+//
+$orange: (
+        orange : (#FF9800, #000000),
+        orange-50 : (#FFF3E0, #000000),
+        orange-100 : (#FFE0B2, #000000),
+        orange-200 : (#FFCC80, #000000),
+        orange-300 : (#FFB74D, #000000),
+        orange-400 : (#FFA726, #000000),
+        orange-500 : (#FF9800, #000000),
+        orange-600 : (#FB8C00, #000000),
+        orange-700 : (#F57C00, #000000),
+        orange-800 : (#EF6C00, #000000),
+        orange-900 : (#E65100, #FFFFFF),
+        orange-A100 : (#FFD180, #000000),
+        orange-A200 : (#FFAB40, #000000),
+        orange-A400 : (#FF9100, #000000),
+        orange-A700 : (#FF6D00, #000000)
+);
+
+//
+// deep-orange
+//
+$deep-orange: (
+        deep-orange : (#FF5722, #000000),
+        deep-orange-50 : (#FBE9E7, #000000),
+        deep-orange-100 : (#FFCCBC, #000000),
+        deep-orange-200 : (#FFAB91, #000000),
+        deep-orange-300 : (#FF8A65, #000000),
+        deep-orange-400 : (#FF7043, #000000),
+        deep-orange-500 : (#FF5722, #000000),
+        deep-orange-600 : (#F4511E, #FFFFFF),
+        deep-orange-700 : (#E64A19, #FFFFFF),
+        deep-orange-800 : (#D84315, #FFFFFF),
+        deep-orange-900 : (#BF360C, #FFFFFF),
+        deep-orange-A100 : (#FF9E80, #000000),
+        deep-orange-A200 : (#FF6E40, #000000),
+        deep-orange-A400 : (#FF3D00, #FFFFFF),
+        deep-orange-A700 : (#DD2C00, #FFFFFF)
+);
+
+//
+// brown
+//
+$brown: (
+        brown : (#795548, #FFFFFF),
+        brown-50 : (#EFEBE9, #000000),
+        brown-100 : (#D7CCC8, #000000),
+        brown-200 : (#BCAAA4, #000000),
+        brown-300 : (#A1887F, #FFFFFF),
+        brown-400 : (#8D6E63, #FFFFFF),
+        brown-500 : (#795548, #FFFFFF),
+        brown-600 : (#6D4C41, #FFFFFF),
+        brown-700 : (#5D4037, #FFFFFF),
+        brown-800 : (#4E342E, #FFFFFF),
+        brown-900 : (#3E2723, #FFFFFF)
+);
+
+//
+// grey
+//
+$grey: (
+        grey : (#9E9E9E, #000000),
+        grey-50 : (#FAFAFA, #000000),
+        grey-100 : (#F5F5F5, #000000),
+        grey-200 : (#EEEEEE, #000000),
+        grey-300 : (#E0E0E0, #000000),
+        grey-400 : (#BDBDBD, #000000),
+        grey-500 : (#9E9E9E, #000000),
+        grey-600 : (#757575, #FFFFFF),
+        grey-700 : (#616161, #FFFFFF),
+        grey-800 : (#424242, #FFFFFF),
+        grey-900 : (#212121, #FFFFFF)
+);
+
+//
+// blue-grey
+//
+$blue-grey: (
+        blue-grey : (#607D8B, #FFFFFF),
+        blue-grey-50 : (#ECEFF1, #000000),
+        blue-grey-100 : (#CFD8DC, #000000),
+        blue-grey-200 : (#B0BEC5, #000000),
+        blue-grey-300 : (#90A4AE, #000000),
+        blue-grey-400 : (#78909C, #FFFFFF),
+        blue-grey-500 : (#607D8B, #FFFFFF),
+        blue-grey-600 : (#546E7A, #FFFFFF),
+        blue-grey-700 : (#455A64, #FFFFFF),
+        blue-grey-800 : (#37474F, #FFFFFF),
+        blue-grey-900 : (#263238, #FFFFFF)
+);
+
+//
+// black
+//
+$black: (
+        black : (#000000, #FFFFFF)
+);
+
+//
+// white
+//
+$white: (
+        white : (#FFFFFF, #000000)
+);

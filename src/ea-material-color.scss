@@ -1,0 +1,65 @@
+@import "mixins/color-maker";
+@import "variables";
+
+// red
+@include color_maker($red);
+
+// pink
+@include color_maker($pink);
+
+// purple
+@include color_maker($purple);
+
+// deep-purple
+@include color_maker($deep-purple);
+
+// indigo
+@include color_maker($indigo);
+
+// blue
+@include color_maker($blue);
+
+// light-blue
+@include color_maker($light-blue);
+
+// cyan
+@include color_maker($cyan);
+
+// teal
+@include color_maker($teal);
+
+// green
+@include color_maker($green);
+
+// light-green
+@include color_maker($light-green);
+
+// lime
+@include color_maker($lime);
+
+// yellow
+@include color_maker($yellow);
+
+// amber
+@include color_maker($amber);
+
+// orange
+@include color_maker($orange);
+
+// deep-orange
+@include color_maker($deep-orange);
+
+// brown
+@include color_maker($brown);
+
+// grey
+@include color_maker($grey);
+
+// blue-grey
+@include color_maker($blue-grey);
+
+// black
+@include color_maker($black);
+
+// white
+@include color_maker($white);

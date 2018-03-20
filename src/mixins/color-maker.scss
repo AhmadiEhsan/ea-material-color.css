@@ -1,0 +1,19 @@
+// color maker
+
+@mixin color_maker($color_list_name) {
+  @each $color_name, $color in $color_list_name {
+    .#{$prefix}bg-#{$color_name},
+    .#{$prefix}bg-hover-#{$color_name}:hover {
+      background-color: #{nth($color, 1)} !important;
+      color: #{nth($color, 2)};
+    }
+    .#{$prefix}text-#{$color_name},
+    .#{$prefix}text-hover-#{$color_name}:hover {
+      color: #{nth($color, 1)} !important;
+    }
+    .#{$prefix}border-#{$color_name},
+    .#{$prefix}border-hover-#{$color_name}:hover {
+      border-color: #{nth($color, 1)} !important;
+    }
+  }
+}
