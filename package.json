@@ -1,0 +1,30 @@
+{
+  "name": "ea-material-color.css",
+  "version": "1.0.0",
+  "description": "Perfect CSS color library based on Material colors",
+  "main": "ea-material-color.css",
+  "dependencies": {
+    "autoprefixer": "^8.1.0",
+    "gulp-csso": "^3.0.1",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-postcss": "^7.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-sass": "^3.1.0",
+    "merge-stream": "^1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AhmadiEhsan/ea-material-color.css.git"
+  },
+  "author": "Ehsan Ahmadi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AhmadiEhsan/ea-material-color.css/issues"
+  },
+  "homepage": "https://github.com/AhmadiEhsan/ea-material-color.css#readme"
+}
