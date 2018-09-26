@@ -12,7 +12,9 @@
       color: #{nth($color, 1)} !important;
     }
     .#{$prefix}border-#{$color_name},
-    .#{$prefix}border-hover-#{$color_name}:hover {
+    .#{$prefix}b-#{$color_name},
+    .#{$prefix}border-hover-#{$color_name}:hover,
+    .#{$prefix}b-hover-#{$color_name}:hover{
       border-color: #{nth($color, 1)} !important;
     }
   }
