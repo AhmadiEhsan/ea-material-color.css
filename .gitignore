@@ -1,4 +1,3 @@
 node_modules/
 .idea/
 gulpfile.js
-package-lock.json
