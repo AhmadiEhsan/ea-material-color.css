@@ -4,6 +4,7 @@
   "description": "Perfect CSS color library based on Material colors",
   "main": "ea-material-color.css",
   "dependencies": {
+    "atob": "^2.1.2",
     "autoprefixer": "^8.1.0",
     "cryptiles": "^4.1.2",
     "gulp": "^3.9.1",
@@ -14,7 +15,8 @@
     "gulp-sourcemaps": "^2.6.4",
     "hoek": "^5.0.4",
     "lodash": "^4.17.11",
-    "merge-stream": "^1.0.1"
+    "merge-stream": "^1.0.1",
+    "minimatch": "^3.0.4"
   },
   "devDependencies": {},
   "scripts": {
